@@ -24,7 +24,7 @@ module.exports = {
       },
       backgroundImage: {
         site: "url('./assets/site-bg.jpg')",
-        about: "url('./assets/home-main.svg')",
+        about: "url('./assets/Mujahidul.png')",
         // services: "url('./assets/services.png')",
         stars: "url('./assets/stars.jpg')"
 
@@ -33,3 +33,7 @@ module.exports = {
   },
   plugins: [],
 };
+
+
+
+

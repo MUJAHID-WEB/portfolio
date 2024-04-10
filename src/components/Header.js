@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-scroll';
 
 //images
-import Logo from '../assets/sign.png'
+import Logo from '../assets/mujahid.png'
 import Image from 'react-bootstrap/Image'
 
 const Header = () => {
@@ -18,7 +18,7 @@ const Header = () => {
             transition-[color,box-shadow] border-b-4 border-l-2 shadow-lg border-blue-700">
               Contact Me
             </button>
-          </Link>
+          </Link> 
 
 
           <div className="h-[10vh] w-[20vh] invisible md:visible hover:scale-125 duration-300
