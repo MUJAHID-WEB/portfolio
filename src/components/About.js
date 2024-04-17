@@ -68,7 +68,7 @@ const About = () => {
 
               <div>
                 <div className="md:text-[30px] font-semibold text-gradient mb-2">
-                  {inView ? <CountUp start={0} end={60} duration={3} /> : 61}
+                  {inView ? <CountUp start={0} end={52} duration={3} /> : 52}
                   +
                 </div>
                 <div className="font-primary text-xs tracking-[2px] text-gray-500">
@@ -108,7 +108,7 @@ const About = () => {
                   Say "Hi"! &nbsp; <span className='text-2xl'>🙋🏽‍♂️</span>
                 </button>
               </Link>
-              <a href="https://drive.google.com/file/d/1izGevUmhfBDRbWRQ6Pd07kV2Q08E7m1g/view?usp=sharing" target="_blank" rel="noreferrer">
+              <a href="https://drive.google.com/file/d/1Oa9FqcYmFYgQYpCNP-C9ocGrzbrQaGfv/view?usp=drive_link" target="_blank" rel="noreferrer">
                 <button className='btn btn-lg
                 hover:text-blue-950 hover:shadow-[inset_13rem_0_0_0] hover:shadow-[#A0C1D1] duration-[400ms,700ms]
                 transition-[color,box-shadow] border-b-4 border-l-2 shadow-lg border-blue-700'>

@@ -19,31 +19,18 @@ const Banner = () => {
       className="min-h-[80vh] lg:min-h-[85vh] flex sm:justify-center"
       id="home"
     >
-      <div className="mx-[10vw] md:mx-auto md:mt-[10vh]">
+      <div className="mx-autos md:mx-auto md:mt-[10vh]">
         <div
           className="flex flex-col sm:pt-20 md:pt-0 gap-y-6 lg:flex-row lg:items-center
         lg:align-middle lg:gap-x-[80px] overflow-hidden "
         >
-          {/* {image} */}
-          <div className="flex justify-center items-center align-middle mx-auto md:mb-8 lg:mb-0">
-            <motion.div
-              variants={fadeIn("down", 0.5)}
-              initial="hidden"
-              whileInView={"show"}
-              className="hidden md:flex flex-1 max-w-[40vw]
-          md:mx-auto justify-center mix-blend-lighten brightness-150 md:ml-[10vw] lg:ml-[15vw] xl:ml-[3vw]"
-            >
-              <Image src={MyImage} alt="" className="max-w-[50vw]" fluid />
-            </motion.div>
-          </div>
-
           {/* {text} */}
           <motion.div
             variants={fadeIn("up", 0.3)}
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.7 }}
-            className="flex-1 text-center align-middle font-secondary xl:ml-[5vw] lg:mr-[5vw] lg:text-left sm:w-full text-2xl"
+            className="flex-1 text-center align-middle font-secondary xl:ml-[5vw] lg:mr-[5vw] lg:text-left sm:w-full text-2xl md:mb-12"
           >
             <p className="text-cyan-600 mb-3 lg:mb-8">
               <span className="text-[2rem]">Hi there!</span>
@@ -71,7 +58,7 @@ const Banner = () => {
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.7 }}
-              className="mb-6 text-[3vh] lg:text-[3vh] font-secondary uppercase leading-[1] pt-1
+              className=" text-[3vh] lg:text-[3vh] font-secondary uppercase leading-[1] pt-1
               flex flex-row lg:justify-start justify-center py-6 xl:space-y-11"
             >
               <TypeAnimation
@@ -93,7 +80,7 @@ const Banner = () => {
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.7 }}
-              className="xl:mt-10 mb-4 mx-auto text-[3vh] lg:text-[2vh] lg:mx-0"
+              className="xl:mt-5 mb-5 mx-auto text-[3vh] lg:text-[2vh] lg:mx-0"
             >
               Nice to meet you. Please take a look around.
             </motion.p>
@@ -108,14 +95,14 @@ const Banner = () => {
                 <Link to="work" activeClass="active">
                   <button
                     className="btn btn-sm hover:text-blue-950 hover:shadow-[inset_13rem_0_0_0] hover:shadow-[#A0C1D1] duration-[400ms,700ms]
-            transition-[color,box-shadow] border-b-4 border-l-2 shadow-lg border-blue-700"
+            transition-[color,box-shadow] border-b-4 border-l-2 shadow-lg border-blue-700" 
                   >
                     My Projects
                   </button>
                 </Link>
               </div>
               <a
-                href="https://drive.google.com/file/d/1YfMUvZTTB4NXQJtojXUbBsO8s0vuhLUj/view?usp=sharing"
+                href="https://drive.google.com/file/d/1Oa9FqcYmFYgQYpCNP-C9ocGrzbrQaGfv/view?usp=sharing"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -128,8 +115,8 @@ const Banner = () => {
                 </div>
               </a>
             </motion.div>
-            <div className="xl:space-y-5">
-              <a href="/" className="text-gradient btn-link">
+            <div className="xl:space-y-5 ">
+              <a href="/" className="text-gradient btn-link md:mb-5">
                 FIND ME ON
               </a>
               {/* {Socials} */}
@@ -149,46 +136,62 @@ const Banner = () => {
                 <a href="https://www.codingninjas.com/studio/profile/b61adbc3-1a17-4936-9b8b-0f1c07b9282b" target="_blank" rel="noreferrer">
                   <SiCodingninjas />
                 </a> */}
-                <a href="https://www.linkedin.com/in/md-mujahidul-islam/">
+                <a href="https://www.linkedin.com/in/md-mujahidul-islam/" target="_blank" rel="noreferrer">
                   <img
                     src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white"
                     alt="LinkedIn Badge"
                   />
                 </a>
-         
-                <a href="https://wa.me/+8801849100112">
+                <a href="https://www.upwork.com/freelancers/~0119e1d121c251c417" target="_blank" rel="noreferrer">
                   <img
-                    src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"
+                    src="https://img.shields.io/badge/upwork-73bb44?style=for-the-badge&logo=upwork&logoColor=white"
+                    alt="Upwork Badge"
+                  />
+                </a>
+                <a href="https://www.fiverr.com/s/2bG1rq" target="_blank" rel="noreferrer">
+                  <img
+                    src="https://img.shields.io/badge/Fiverr-388E3C?style=for-the-badge&logo=fiverr&logoColor=white"
+                    alt="Fiverr Badge"
+                  />
+                </a>
+
+                <a href="https://wa.me/+8801849100112" target="_blank" rel="noreferrer">
+                  <img
+                    src="https://img.shields.io/badge/WhatsApp-075E54?style=for-the-badge&logo=whatsapp&logoColor=white"
                     alt="Whatsapp Badge"
                   />
                 </a>
-                <a href="https://www.facebook.com/mujahidul.islam.90410/">
+                <a href="https://www.facebook.com/mujahidul.islam.90410/" target="_blank" rel="noreferrer">
                   <img
                     src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white"
                     alt="Facebook Badge"
                   />
                 </a>
-                <a href="skype:live:.cid.1a3f6e3d8988f339?chat">
+                <a href="skype:live:.cid.1a3f6e3d8988f339?chat" target="_blank" rel="noreferrer">
                   <img
                     src="https://img.shields.io/badge/Skype-00AFF0?style=for-the-badge&logo=skype&logoColor=white"
                     alt="Skype Badge"
                   />
                 </a>
-                <a href="https://slack.com/">
-                  <img
-                    src="https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white"
-                    alt="Slack Badge"
-                  />
-                </a>
-                <a href="https://www.upwork.com/freelancers/~0119e1d121c251c417">
-                  <img
-                    src="https://img.shields.io/badge/upwork-6FDA44?style=for-the-badge&logo=upwork&logoColor=white"
-                    alt="Upwork Badge"
-                  />
-                </a>
+               
+              
               </div>
             </div>
           </motion.div>
+
+          {/* {image} */}
+          <div className="flex justify-center items-center align-middle mx-auto md:mb-12 lg:mb-0">
+            <motion.div
+              variants={fadeIn("down", 0.5)}
+              initial="hidden"
+              whileInView={"show"}
+              className="hidden md:flex flex-1 max-w-[40vw]
+          md:mx-auto justify-center mix-blend-lighten brightness-150 md:ml-[10vw] lg:ml-[15vw] xl:ml-[3vw]"
+            >
+              <Image src={MyImage} alt="" className="max-w-[50vw]" fluid />
+            </motion.div>
+          </div>
+          
         </div>
       </div>
     </section>
