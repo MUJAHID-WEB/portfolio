@@ -54,6 +54,7 @@ const Skills = () => {
                   <SkillName name='CSS3'/>
                   <SkillName name='JavaScript'/>
                   <SkillName name='Flutter'/>
+                  <SkillName name='Storybook'/>
                 </div>
               </motion.div>
 
@@ -92,6 +93,7 @@ const Skills = () => {
                   <div className="flex flex-row flex-wrap justify-center">
                   <SkillName name='Material UI'/>
                   <SkillName name='Ant Design'/>
+                  <SkillName name='React BootStrap'/>
                   {/* <SkillName name='Chakra UI'/>
                   <SkillName name='Storybook'/>
                   <SkillName name='React BootStrap'/> */}
@@ -106,12 +108,16 @@ const Skills = () => {
                 viewport={{ once: false, amount: 0.3 }}
                 className="lg:max-w-[30vw] lg:min-w-[25vw]"
               >
-                <h1 className="title-text">State Management</h1>
+                <h1 className="title-text">State & API Management</h1>
 
                 <div className="flex flex-row flex-wrap justify-center">
                 <SkillName name='Redux'/>
                 {/* <SkillName name='MobX'/> */}
                 <SkillName name='Context API'/>
+                {/* <SkillName name='Zustand'/> */}
+                {/* <SkillName name='React-query'/> */}
+                <SkillName name='REST API'/>
+                {/* <SkillName name='GraphQL'/> */}
                 </div>
               </motion.div>
               
@@ -129,6 +135,7 @@ const Skills = () => {
                 <SkillName name='Git'/>
                 <SkillName name='GitHub'/>
                 {/* <SkillName name='GitLab'/> */}
+                {/* <SkillName name='BitBucket'/> */}
                 </div>
               </motion.div>
 
@@ -156,6 +163,8 @@ const Skills = () => {
                   <div className="flex flex-row flex-wrap justify-center">
                   <SkillName name='Firebase'/>
                   <SkillName name='MongoDB'/>
+                  {/* <SkillName name='DynamoDB'/> */}
+                  {/* <SkillName name='Supabase'/> */}
                   {/* <SkillName name='PostgreSQL'/> */}
                   </div>
                 </div>
@@ -171,14 +180,14 @@ const Skills = () => {
                 </div>
               </div>
 
-              <div className="lg:max-w-[30vw] lg:min-w-[25vw]">
+              {/* <div className="lg:max-w-[30vw] lg:min-w-[25vw]">
                 <h1 className="title-text">Testing</h1>
                 <div className="flex flex-row flex-wrap justify-center">
                 <SkillName name='Mocha'/>
-                {/* <SkillName name='Jest'/>
-                <SkillName name='Cypress'/> */}
+                <SkillName name='Jest'/>
+                <SkillName name='Cypress'/>
                 </div>
-              </div>
+              </div> */}
             </motion.div>
           </div>
         </div>

@@ -1,9 +1,5 @@
 import { React } from "react";
 import "../index.css";
-//motion
-import { motion } from "framer-motion";
-//variant
-import { fadeIn } from "../variants";
 import EducationCard from "./EducationCard";
 import EducationData, { ExperienceData } from "./EducationData";
 

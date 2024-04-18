@@ -99,7 +99,7 @@ const Banner = () => {
                 </Link>
               </div>
               <a
-                href="https://drive.google.com/file/d/1Oa9FqcYmFYgQYpCNP-C9ocGrzbrQaGfv/view?usp=sharing"
+                href="https://flowcv.com/resume/0psai9n22g"
                 target="_blank"
                 rel="noreferrer"
               >

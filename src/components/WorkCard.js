@@ -11,10 +11,10 @@ export default function WorkCard({project}) {
         rel="noreferrer"
       >
         {/* Overlay */}
-        <div className="bg-transparent group-hover:bg-black/80 w-full h-full absolute z-30 transition-all duration-300"></div>
+        <div className="bg-black/30 group-hover:bg-black/80 w-full h-full absolute z-30 transition-all duration-300"></div>
         {/* img */}
         <img
-          className="scale-125 group-hover:scale-150 transition-all duration-500"
+          className="scale-100 group-hover:scale-150 transition-all duration-500"
           src={imageUrl}
           alt=""
         />
@@ -23,7 +23,7 @@ export default function WorkCard({project}) {
           {/* pretitle */}
           <div className="text-gradient md:text-xl text-sm">{title}</div>
           {/* title */}
-          <div className=" md:text-sm text-blue-400 text-base">
+          <div className=" md:text-sm text-gradient text-xs">
             {tech}
           </div>
           <div className=" md:text-sm text-white text-sm">
