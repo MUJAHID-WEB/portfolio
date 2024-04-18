@@ -12,6 +12,7 @@ import { fadeIn } from "../variants";
 import { Link } from "react-scroll";
 import { HiArrowNarrowRight } from "react-icons/hi";
 import Image from "react-bootstrap/Image";
+import Button from "./Button";
 
 const Banner = () => {
   return (
@@ -93,12 +94,8 @@ const Banner = () => {
             >
               <div>
                 <Link to="work" activeClass="active">
-                  <button
-                    className="btn btn-sm hover:text-blue-950 hover:shadow-[inset_13rem_0_0_0] hover:shadow-[#A0C1D1] duration-[400ms,700ms]
-            transition-[color,box-shadow] border-b-4 border-l-2 shadow-lg border-blue-700"
-                  >
-                    My Projects
-                  </button>
+            
+                  <Button btnText='My Projects' />
                 </Link>
               </div>
               <a

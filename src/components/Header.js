@@ -4,6 +4,7 @@ import { Link } from 'react-scroll';
 //images
 import Logo from '../assets/mujahid.png'
 import Image from 'react-bootstrap/Image'
+import Button from './Button';
 
 const Header = () => {
   return (
@@ -13,11 +14,8 @@ const Header = () => {
         <div className="flex justify-center md:justify-between items-center align-middle">
           {/* {button} */}
           <Link to="contact" activeClass='active'>
-            <button className="btn btn-sm md:btn-lg xl:btn-lg
-            hover:text-blue-950 hover:shadow-[inset_13rem_0_0_0] hover:shadow-[#A0C1D1] duration-[400ms,700ms]
-            transition-[color,box-shadow] border-b-4 border-l-2 shadow-lg border-blue-700">
-              Contact Me
-            </button>
+
+            <Button btnText='Contact Me' />
           </Link> 
 
 

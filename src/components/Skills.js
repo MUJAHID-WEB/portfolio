@@ -45,16 +45,14 @@ const Skills = () => {
                 <h2 className="title-text">Web Development</h2>
 
                 <div className="flex flex-row flex-wrap justify-center">
-                <SkillName name='React.Js'/>
+                  <SkillName name='React.Js'/>
                   <SkillName name='Next.Js'/>
                   <SkillName name='TypeScript'/>
                   <SkillName name='Tailwind CSS'/>
                   <SkillName name='SASS'/>
                   <SkillName name='HTML5'/>
                   <SkillName name='CSS3'/>
-
                   <SkillName name='JavaScript'/>
-
                   <SkillName name='Flutter'/>
                 </div>
               </motion.div>
@@ -69,9 +67,9 @@ const Skills = () => {
                 <h1 className="title-text">Animation</h1>
 
                 <div className="flex flex-row flex-wrap justify-center">
-                <SkillName name='React Spring'/>
+                {/* <SkillName name='React Spring'/>
                 <SkillName name='Anime.Js'/>
-                <SkillName name='Pixi.Js'/>
+                <SkillName name='Pixi.Js'/> */}
                 <SkillName name='Framer Motion'/>
 
                 
@@ -94,9 +92,9 @@ const Skills = () => {
                   <div className="flex flex-row flex-wrap justify-center">
                   <SkillName name='Material UI'/>
                   <SkillName name='Ant Design'/>
-                  <SkillName name='Chakra UI'/>
+                  {/* <SkillName name='Chakra UI'/>
                   <SkillName name='Storybook'/>
-                  <SkillName name='React BootStrap'/>
+                  <SkillName name='React BootStrap'/> */}
                   </div>
                 </div>
               </motion.div>
@@ -112,7 +110,7 @@ const Skills = () => {
 
                 <div className="flex flex-row flex-wrap justify-center">
                 <SkillName name='Redux'/>
-                <SkillName name='MobX'/>
+                {/* <SkillName name='MobX'/> */}
                 <SkillName name='Context API'/>
                 </div>
               </motion.div>
@@ -130,7 +128,7 @@ const Skills = () => {
                 <div className="flex flex-row flex-wrap justify-center">
                 <SkillName name='Git'/>
                 <SkillName name='GitHub'/>
-                <SkillName name='GitLab'/>
+                {/* <SkillName name='GitLab'/> */}
                 </div>
               </motion.div>
 
@@ -158,7 +156,7 @@ const Skills = () => {
                   <div className="flex flex-row flex-wrap justify-center">
                   <SkillName name='Firebase'/>
                   <SkillName name='MongoDB'/>
-                  <SkillName name='PostgreSQL'/>
+                  {/* <SkillName name='PostgreSQL'/> */}
                   </div>
                 </div>
               </motion.div>
@@ -168,8 +166,8 @@ const Skills = () => {
                 <SkillName name='Contentful'/>
                 <SkillName name='Sanity'/>
                 <SkillName name='Strapi'/>
-                <SkillName name='Wordpress'/>
-                <SkillName name='Payload'/>
+                {/* <SkillName name='Wordpress'/>
+                <SkillName name='Payload'/> */}
                 </div>
               </div>
 
@@ -177,8 +175,8 @@ const Skills = () => {
                 <h1 className="title-text">Testing</h1>
                 <div className="flex flex-row flex-wrap justify-center">
                 <SkillName name='Mocha'/>
-                <SkillName name='Jest'/>
-                <SkillName name='Cypress'/>
+                {/* <SkillName name='Jest'/>
+                <SkillName name='Cypress'/> */}
                 </div>
               </div>
             </motion.div>

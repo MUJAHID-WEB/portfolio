@@ -9,8 +9,7 @@ import { motion } from 'framer-motion';
 import { fadeIn } from '../variants';
 //To add link to contact 
 import { Link } from 'react-scroll';
-import Image from "react-bootstrap/Image";
-import MyImage from "../assets/cover.png";
+import Button from './Button';
 
 // bg-slate-800
 // bg-stone-700
@@ -44,7 +43,7 @@ const About = () => {
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.3 }}
-            className="flex-1 xl:leading-9">
+            className="flex-1 xl:leading-9 md:mt-10">
             <h2 className='h2 text-accent text-5xl lg:text-[5vh] font-tertiary'>Meet me</h2>
             <h4 className='h4 mb-4 lg:text-[2.5vh]'>I'm a Frontend Engineer with almost 4 years of experience.</h4>
 
@@ -102,18 +101,12 @@ const About = () => {
             </div>
             <div className="hidden md:flex md:gap-x-8 md:items-center md:mb-5">
               <Link to="contact" activeClass='active'>
-                <button className='btn btn-lg
-                hover:text-blue-950 hover:shadow-[inset_13rem_0_0_0] hover:shadow-[#A0C1D1] duration-[400ms,700ms]
-                transition-[color,box-shadow] border-b-4 border-l-2 shadow-lg border-blue-700'>
-                  Say "Hi"! &nbsp; <span className='text-2xl'>🙋🏽‍♂️</span>
-                </button>
+        
+                <Button btnText="Say 'Hi'!" />
               </Link>
               <a href="https://drive.google.com/file/d/1Oa9FqcYmFYgQYpCNP-C9ocGrzbrQaGfv/view?usp=drive_link" target="_blank" rel="noreferrer">
-                <button className='btn btn-lg
-                hover:text-blue-950 hover:shadow-[inset_13rem_0_0_0] hover:shadow-[#A0C1D1] duration-[400ms,700ms]
-                transition-[color,box-shadow] border-b-4 border-l-2 shadow-lg border-blue-700'>
-                  Resume
-                </button>
+            
+                <Button btnText='Resume' />
               </a>
 
             </div>
