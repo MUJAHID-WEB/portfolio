@@ -104,7 +104,7 @@ const About = () => {
         
                 <Button btnText="Say 'Hi'!" />
               </Link>
-              <a href="https://drive.google.com/file/d/1Oa9FqcYmFYgQYpCNP-C9ocGrzbrQaGfv/view?usp=drive_link" target="_blank" rel="noreferrer">
+              <a href="https://drive.google.com/file/d/1TRIbdf5kMjlmmRGnv0M8q5N2-_0oJfbO/view?usp=sharing" target="_blank" rel="noreferrer">
             
                 <Button btnText='Resume' />
               </a>

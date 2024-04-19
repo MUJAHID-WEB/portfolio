@@ -114,7 +114,7 @@ const Contact = () => {
           <div className='text-pink-300 font-primary font-semibold text-lg'>
             <h1>Or</h1>
           </div>
-          Email me: mujahid30390@gmail.com
+          Email me: mujahid@mujahidul.me
         </div>
       </div>
     </section>
