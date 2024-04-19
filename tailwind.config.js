@@ -23,10 +23,10 @@ module.exports = {
         accent: '#ba40c3',
       },
       backgroundImage: {
-        site: "url('./assets/site-bg.jpg')",
-        about: "url('./assets/Mujahidul.png')",
+        site: "url('./assets/site-bg.webp')",
+        about: "url('./assets/Mujahidul.webp')",
         // services: "url('./assets/services.png')",
-        stars: "url('./assets/stars.jpg')"
+        stars: "url('./assets/stars.webp')"
 
       },
     },

@@ -1,6 +1,6 @@
 import React from "react";
 //images
-import MyImage from "../assets/cover.png";
+import MyImage from "../assets/cover.webp";
 //icons
 // import { FaGithub, FaLinkedin } from "react-icons/fa";
 // import { SiLeetcode, SiHackerrank, SiCodingninjas } from "react-icons/si";

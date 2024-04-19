@@ -1,6 +1,6 @@
-import ecom_userpanel from "../assets/projects/ecom_userpanel.png";
-import ecom_admin from "../assets/projects/ecom_admin.png";
-import agency from "../assets/projects/devfirm.png";
+import ecom_userpanel from "../assets/projects/ecom_userpanel.webp";
+import ecom_admin from "../assets/projects/ecom_admin.webp";
+import agency from "../assets/projects/devfirm.webp";
 
 const workData = [
     {

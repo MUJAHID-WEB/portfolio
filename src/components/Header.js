@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-scroll';
 
 //images
-import Logo from '../assets/mujahid.png'
+import Logo from '../assets/mujahid.webp'
 import Image from 'react-bootstrap/Image'
 import Button from './Button';
 
