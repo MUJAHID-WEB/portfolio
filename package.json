@@ -16,6 +16,7 @@
     "react-icons": "^5.0.1",
     "react-intersection-observer": "^9.8.2",
     "react-loader-spinner": "^6.1.6",
+    "react-player": "^2.16.0",
     "react-scripts": "5.0.1",
     "react-scroll": "^1.9.0",
     "react-spinners": "^0.13.8",
@@ -52,6 +53,7 @@
   "devDependencies": {
     "autoprefixer": "^9.8.8",
     "postcss": "^7.0.39",
+    "postcss-flexbugs-fixes": "^5.0.2",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.17"
   }
 }

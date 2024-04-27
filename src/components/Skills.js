@@ -54,7 +54,7 @@ const Skills = () => {
                   <SkillName name='CSS3'/>
                   <SkillName name='JavaScript'/>
                   <SkillName name='Flutter'/>
-                  <SkillName name='Storybook'/>
+                  {/* <SkillName name='Storybook'/> */}
                 </div>
               </motion.div>
 

@@ -49,8 +49,8 @@ const Work = () => {
         
           </motion.div>
         </div>
-        <a href='https://github.com/MUJAHID-WEB' target="_blank" rel="noreferrer">
-        <Button btnText='View all projects' className='my-10'/>
+        <a href='https://github.com/MUJAHID-WEB' target="_blank" rel="noreferrer" className="flex justify-center items-center">
+        <Button btnText='View all projects' className='my-14'/>
         </a>
       </div>
     </section>
