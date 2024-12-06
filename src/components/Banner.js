@@ -22,7 +22,7 @@ const Banner = () => {
     >
       {/* <div className="mx-auto md:mx-auto"> */}
         <div
-          className="flex flex-col sm:pt-20 md:pt-0 gap-y-6 lg:flex-row lg:items-center
+          className="flex flex-col sm:pt-20 pb-20 md:pt-0 gap-y-10 lg:flex-row lg:items-center
         lg:align-middle overflow-hidden "
         >
           {/* {text} */}
@@ -112,12 +112,12 @@ const Banner = () => {
                 </div>
               </a>
             </motion.div>
-            <div className="xl:space-y-5 ">
+            <div className="space-y-5 ">
               <a href="/" className="text-gradient btn-link md:mb-5">
                 FIND ME ON
               </a>
               {/* {Socials} */}
-              <div className="flex flex-wrap text-[20px] gap-x-2 max-w-max mx-auto lg:mx-0">
+              <div className="flex flex-wrap text-[20px] gap-2 max-w-max mx-auto justify-center md:justify-start lg:mx-0">
                 {/* <a href="https://github.com/serverf21" target="_blank" rel="noreferrer">
                   <FaGithub />
                 </a>

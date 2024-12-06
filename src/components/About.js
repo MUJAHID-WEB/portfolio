@@ -22,7 +22,7 @@ const About = () => {
   });
   // mix-blend-exclusion
   return (
-    <section className='section sm:bottom-2 bg-cyan-950' id="about" ref={ref}>
+    <section className='min-h-[60vh] md:section sm:bottom-2 bg-cyan-950' id="about" ref={ref}>
       <div className="container md:mx-auto md:flex md:justify-center">
 
         <div className='flex flex-col items-center align-middle justify-center lg:flex-row
@@ -43,7 +43,7 @@ const About = () => {
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.3 }}
-            className="flex-1 xl:leading-9 md:mt-10">
+            className="flex flex-col items-start justify-center flex-1 xl:leading-9 md:mt-10">
             <h2 className='h2 text-accent text-5xl lg:text-[5vh] font-tertiary'>Meet me</h2>
             <h4 className='h4 mb-4 lg:text-[2.5vh]'>I'm a Frontend Engineer with almost 4 years of experience.</h4>
 

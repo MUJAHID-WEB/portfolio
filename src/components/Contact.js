@@ -48,9 +48,9 @@ const Contact = () => {
 
   }
   return (
-    <section className='py-10 mt-20 lg:section bg-cyan-950' id="contact">
-      <div className="container mx-auto">
-        <div className='flex flex-col lg:flex-row align-middle items-center'>
+    <section className='py-10 md:mt-20 lg:section bg-cyan-950' id="contact">
+      <div className="container mx-auto flex flex-col gap-8">
+        <div className='flex flex-col lg:flex-row align-middle items-start'>
           {/* text */}
           <motion.div
             variants={fadeIn('right', 0.3)}
@@ -76,7 +76,7 @@ const Contact = () => {
             initial='hidden'
             whileInView={'show'}
             viewport={{ once: false, amount: 0.3 }}
-            className="flex-1 border rounded-2xl flex flex-col gap-y-6
+            className="w-full md:flex-1 border rounded-2xl flex flex-col gap-y-6
           pb-24 p-6 items-start sm:w-[70vw] lg:w-[40vw]">
             <input className="bg-transparent border-b py-3 outline-none w-full
             placeholder:text-white focus:border-accent transition-all" type="text"
@@ -110,7 +110,7 @@ const Contact = () => {
           </motion.form>
 
         </div>
-        <div className='mb-[25vh]'>
+        <div className='mb-0 md:mb-[25vh]'>
           <div className='text-pink-300 font-primary font-semibold text-lg'>
             <h1>Or</h1>
           </div>

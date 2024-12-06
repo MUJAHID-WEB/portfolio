@@ -11,7 +11,7 @@ import Button from "./Button";
 const Work = () => {
   return (
     <section className=" bg-cyan-950" id="work">
-      <div className="container mx-auto align-middle py-[150px]">
+      <div className="container mx-auto align-middle py-[80px] md:py-[150px]">
         <div className="flex flex-col gap-x-10 gap-y-10 align-middle m-5">
           {/* Heading */}
           <motion.div
