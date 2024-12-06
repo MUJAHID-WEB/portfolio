@@ -20,7 +20,7 @@ const Banner = () => {
       className="min-h-[80vh] lg:min-h-[85vh] flex sm:justify-center"
       id="home"
     >
-      <div className="mx-auto md:mx-auto">
+      {/* <div className="mx-auto md:mx-auto"> */}
         <div
           className="flex flex-col sm:pt-20 md:pt-0 gap-y-6 lg:flex-row lg:items-center
         lg:align-middle overflow-hidden "
@@ -117,7 +117,7 @@ const Banner = () => {
                 FIND ME ON
               </a>
               {/* {Socials} */}
-              <div className="flex text-[20px] gap-x-2 max-w-max mx-auto lg:mx-0">
+              <div className="flex flex-wrap text-[20px] gap-x-2 max-w-max mx-auto lg:mx-0">
                 {/* <a href="https://github.com/serverf21" target="_blank" rel="noreferrer">
                   <FaGithub />
                 </a>
@@ -204,14 +204,14 @@ const Banner = () => {
               variants={fadeIn("down", 0.5)}
               initial="hidden"
               whileInView={"show"}
-              className="hidden md:flex
+              className="visible md:flex
           md:mx-auto justify-center mix-blend-lighten brightness-150 md:ml-[10vw] lg:ml-[15vw] xl:ml-[3vw]"
             >
               <Image src={MyImage} alt="" height={950} width={950} fluid />
             </motion.div>
           </div>
         </div>
-      </div>
+      {/* </div> */}
     </section>
   );
 };

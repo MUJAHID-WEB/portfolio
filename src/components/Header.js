@@ -10,7 +10,7 @@ const Header = () => {
   return (
     <header className="py-5 w-full" id="header">
 
-      <div className="mx-20">
+      <div className="mx-8">
         <div className="flex justify-center md:justify-between items-center align-middle">
           {/* {button} */}
           <Link to="contact" activeClass='active'>
