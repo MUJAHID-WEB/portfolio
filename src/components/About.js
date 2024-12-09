@@ -11,10 +11,6 @@ import { fadeIn } from '../variants';
 import { Link } from 'react-scroll';
 import Button from './Button';
 
-// bg-slate-800
-// bg-stone-700
-//#AA4465
-//#3D0814
 
 const About = () => {
   const [ref, inView] = useInView({
